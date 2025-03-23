@@ -1,0 +1,32 @@
+:root {
+  --background-color: #101010;
+  --background-soft-color: #191919;
+
+  --text-color: white;
+  --text-paragraph-color: #999999;
+}
+h1,
+h2 {
+  font-size: 30px;
+  color: var(--text-color);
+}
+p {
+  color: var(--text-paragraph-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+div.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--background-color);
+}
