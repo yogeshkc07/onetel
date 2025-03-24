@@ -106,7 +106,7 @@ li.active {
   transform: translateY(-20px);
 }
 
-.fa-solid {
+.circle {
   color: white;
   font-size: 36px;
   border: 2px solid white;
@@ -183,4 +183,54 @@ div.image {
 }
 div.image img {
   width: 245px;
+}
+.footer-info {
+  padding: 50px 0;
+}
+
+.footer-info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+footer {
+  width: 100%;
+  background-color: var(--background-soft-color);
+}
+.footer-info ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 35%;
+
+  justify-content: center;
+}
+.footer-info ul li img {
+  width: 150px;
+}
+p.footer-description {
+  font-size: 14px;
+  line-height: 25px;
+}
+.footer-info ul li h2 {
+  font-size: 20px;
+}
+.footer-info ul li:nth-of-type(2) {
+  width: 20%;
+}
+span {
+  color: var(--text-paragraph-color);
+}
+input[type="email"] {
+  border: 2px solid white;
+  outline: none;
+  width: 70%;
+  background-color: transparent;
+  height: 40px;
+  padding: 10px;
+}
+input[type="email"]::placeholder {
+  color: white;
+  font-weight: 500;
 }
