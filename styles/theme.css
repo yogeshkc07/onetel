@@ -234,3 +234,138 @@ input[type="email"]::placeholder {
   color: white;
   font-weight: 500;
 }
+.footer-links {
+  color: var(--text-paragraph-color);
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links ul {
+  display: flex;
+  gap: 20px;
+}
+.footer-links ul li {
+  background-color: #2f2f2f;
+}
+.footer-links ul li i {
+  font-size: 25px;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.footer-links ul li i:hover {
+  background-color: #d54ab6;
+  color: white;
+}
+/* about us */
+div.about-hero {
+  height: 600px;
+  background-position: center;
+  background-image: url(/images/about-header.jpg);
+}
+section.crew {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+section.crew p {
+  width: 70%;
+  text-align: center;
+  line-height: 25px;
+}
+ul.gallery {
+  display: flex;
+  gap: 20px;
+}
+ul.gallery h2 {
+  text-transform: uppercase;
+}
+ul.gallery span {
+  color: #d54ab6;
+  font-weight: bold;
+  font-size: 20px;
+}
+ul.gallery p {
+  font-size: 14px;
+}
+
+ul.gallery li {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid var(--text-paragraph-color);
+}
+ul.gallery li img {
+  width: 100%;
+}
+hr {
+  margin-bottom: 100px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 100px;
+  background-color: var(--text-paragraph-color);
+}
+div.skills {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.skills-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.skills-right p {
+  margin-bottom: 10px;
+}
+div.skill-line {
+  width: 90%;
+  background-color: white;
+  height: 4px;
+  position: relative;
+}
+div.skill-line.one::before {
+  content: "";
+  width: 80%;
+  height: 4px;
+  background-color: red;
+  position: absolute;
+}
+div.skill-line.two::before {
+  content: "";
+  width: 70%;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+}
+div.skill-line.three::before {
+  content: "";
+  width: 45%;
+  height: 4px;
+  background-color: blue;
+  position: absolute;
+}
+/* portfolio */
+div.portfolio-hero {
+  height: 600px;
+  background-position: center;
+  background-image: url(/images/portfolio-header.jpg);
+}
+.margin-top {
+  margin: 80px 0;
+}
