@@ -1,6 +1,6 @@
 @import url(./base.css);
 div.hero {
-  background-image: url("/images/home-bg.jpg");
+  background-image: url("../images/home-bg.jpg");
   width: 100%;
 
   background-size: cover;
@@ -261,7 +261,7 @@ input[type="email"]::placeholder {
 div.about-hero {
   height: 600px;
   background-position: center;
-  background-image: url(/images/about-header.jpg);
+  background-image: url(../images/about-header.jpg);
 }
 section.crew {
   margin: 100px 0;
@@ -364,7 +364,7 @@ div.skill-line.three::before {
 div.portfolio-hero {
   height: 600px;
   background-position: center;
-  background-image: url(/images/portfolio-header.jpg);
+  background-image: url(../images/portfolio-header.jpg);
 }
 .margin-top {
   margin: 80px 0;
